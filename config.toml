@@ -1,0 +1,40 @@
+baseURL = 'https://nick.golf/'
+languageCode = 'en-us'
+title = 'Way Cool Site'
+theme = 'site'
+
+[Params]
+name = 'Nick Zombolas'
+
+
+[[menu.main]]
+    name = 'Projects'
+    url = '/projects'
+[[menu.main]]
+    name = 'Posts'
+    url = '/posts'
+
+[[menu.socials]]
+    name = '<Linkedin>'
+    url = 'https://www.linkedin.com/in/nick-zombolas/'
+    [menu.socials.params]
+        img = 'linkedIn.png'
+        altText = 'My LinkedIn Profile'
+        width = '40'
+        height = '40'
+[[menu.socials]]
+    name = '<Github>'
+    url = 'https://github.com/nickzombolas'
+    [menu.socials.params]
+        img = 'github.png'
+        altText = 'My GitHub Profile'
+        width = '40'
+        height = '40'
+[[menu.socials]]
+    name = '<Mail>'
+    url = 'mailto:nickzombolas@gmail.com'
+    [menu.socials.params]
+        img = 'mail.png'
+        altText = 'My Email Address'
+        width = '50'
+        height = '40'

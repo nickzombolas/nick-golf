@@ -1,0 +1,18 @@
+
+<header>
+    <div class="button-container">
+    <a class="text no-underline" href="{{ .Site.BaseURL }}">Home</a>
+        <div class="text">
+            {{ range .Site.Menus.socials }}
+                    <a class="no-underline" href="{{ .URL }}">
+                        <img
+                            src="{{ relURL .Params.img }}"
+                            alt="{{ .Params.altText }}"
+                            width="{{ .Params.width }}"
+                            height="{{ .Params.height}}"
+                        >
+                    </a>
+            {{ end }}
+        </div>
+    </div>
+</header>
