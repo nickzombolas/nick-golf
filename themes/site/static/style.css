@@ -26,6 +26,7 @@ a {
     color: inherit; /* Inherit color from parent */
 }
 
+/* TODO: p tags in homepage should have different rules than p tags in content */
 p {
     margin: 8px;
 }
