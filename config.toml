@@ -38,3 +38,11 @@ name = 'Nick Zombolas'
         altText = 'My Email Address'
         width = '50'
         height = '40'
+[[menu.socials]]
+    name = '<rss>'
+    url = 'index.xml'
+    [menu.socials.params]
+        img = 'rss.svg'
+        altText = 'RSS Feed'
+        width = '40'
+        height = '40'
